@@ -17,7 +17,7 @@ window.onload = function(){
       modalImg[i].style.margin = "1vh 0"
    }
    for(var i=0; i< modalTxt.length;i++){
-   modalTxt[i].style.height = "60vh"
+   modalTxt[i].style.height = "50vh"
    }
   }
   for(let i = 0; i < projectbox.length; i++){

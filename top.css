@@ -291,15 +291,9 @@ body{
   align-items: center;
   justify-content: center;
 }
-#modal-container span{
-  font-size: 4vh;
-  text-align: center;
-  color: #3f3f3f;
-  line-height: 5vh;
-}
 .button{
   width: 30vw;
-  height: 5vw;
+  height: 5vh;
   border-radius: 3vw;
   border: #4f4f4f solid .5vw;
   position: absolute;
@@ -307,8 +301,12 @@ body{
   right: 0;
   margin: auto;
   bottom: 3vh;
-  min-width: 250px;
+  min-width: 200px;
   min-height: 30px;
+  text-align: center;
+  color: #3f3f3f;
+  font-size: 4vh;
+  line-height: 5vh;
 }
 .close{
   width: 7.5vh;

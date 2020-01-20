@@ -1,0 +1,53 @@
+body{
+   margin: 0;
+  background-color: #f4f3f9;
+}
+h1{
+  font-size: 13vh;
+  color: #E84566;
+  margin: 0;
+  margin-top: 1vh;
+  text-align: center;
+}
+p{
+  font-size: 3vh;
+  margin: 0;
+  text-align: center;
+}
+.howto{
+  margin-top: 2vh;
+}
+.slides{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80vw;
+   margin: 5vh auto 0 auto;
+   align-items: center;
+   justify-content: center;
+}
+.slides > div{
+  border: #6EC7E2 1vw solid;
+  width: 18vw;
+  height: 18vw;
+  margin-right: 5vw;
+  margin-bottom: 5vw;
+  border-radius: 10%;
+}
+.slides a{
+  text-decoration: none;
+  color: black;
+}
+.slides div img{
+  width: 18vw;
+  height: auto;
+  margin-top: 2vh;
+}
+.slides > :hover{
+  border: none;
+  width: 18vw;
+  height: 18vw;
+  padding: 1vw;
+}
+.slides :nth-child(3n){
+  margin-right: 0;
+}

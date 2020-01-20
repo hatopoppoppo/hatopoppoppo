@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="portfolio　はと">
+  <meta name="description" content="N高生はとのportfolio">
+  <meta name="keywords" content="html,css,js,N高,portfolio,ポートフォリオ,N高">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129667762-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-129667762-4');
+  </script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <a href="" class="header-logo">
+      </a>
+      <nav class="header-nav">
+        <ul class=" header-menu">
+          <li class="header-item"><a href="#intrducion">自己紹介</a></li>
+          <li class="header-item"><a href="#skill">所有技術</a></li>
+          <li class="header-item"><a href="#work">過去作品</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <img src="blur.jpg" alt="blur" class="blur">
+      <div class="introducion">
+        <div id="intrducion"></div>
+        <img src="icon.png" alt="icon" class="icon">
+        <h1>はと</h1>
+        <p>N高等学校でプログラミングを学ぶ学生</p>
+        <p>分野はWeb</p>
+        <p>CSSの脳筋実装が得意</p>
+      </div>
+
+      <div class="skill">
+        <h1 id="skill">所有技術</h1>
+        <div class="skill-graph">
+          <div class="skill-wrap">
+            <div class="graph-html">
+              <div class="circle">
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="skill-p">
+              <p>基本的なHTMLは書けますがcanvasなどまだまだ触れられていない物も多い為そちらの勉強を行いたいです</p>
+            </div>
+          </div>
+          <div class="skill-wrap">
+            <div class="graph-css">
+              <div class="circle">
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="skill-p">
+              <p>脳筋実装などしてきましたがem rem vh vwなどの区別、使い所など理論として身につけて行きたいです</p>
+            </div>
+          </div>
+          <div class="skill-wrap">
+            <div class="graph-js">
+              <div class="circle">
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div class="skill-p">
+              <p>基本的なJSは書けますが大抵の物をCSSで実装しようと努力してしまう為、勉強が進められていないのが現状です</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1 id="work">過去作品</h1>
+        <div class="work-container">
+          <div class="workbox"><a href="http://gmstb.under.jp/fontsite.html"><img src="gmstb.png" alt="gmstb">
+              <p>フォントサイト<br>GMSTB</p>
+            </a></div>
+          <div class="workbox"><a href="https://qiita.com/hato-poppo/items/35f628824be876a14046"><img src="Qiita.png"
+                alt="Qiita">
+              <p>猿でも分かる<br>CSSアニメーション指南書</p>
+            </a></div>
+          <div class="workbox"><a href="hatopoppoppo.github.io/CSSTG/csstg.html"><img src="csstg.png" alt="csstg">
+              <p>CSSTG<br>JS無使用のSTG</p>
+            </a></div>
+          <div class="workbox"><a href=""><img src="portfolio.png" alt="portfolio">
+              <p>portfolio<br>1.0.0</p>
+            </a></div>
+        </div>
+      </div>
+      <div class="thema">
+        <div id="dark"><img src="dark.svg"></div>
+        <div id="light"><img src="light.svg"></div>
+      </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <div>
+        <a href="https://twitter.com/himajinn_N" class="twitter"> </a>
+        <p>hatopoppo.web@gmail.com</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- animation -->
+  <div class="animation">
+    <div class="anime1"></div>
+    <div class="anime2"></div>
+    <div class="anime3"></div>
+    <div class="anime4"></div>
+    <div class="anime5"></div>
+  </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script src="https://leaverou.github.io/conic-gradient/conic-gradient.js"></script>
+
+</html>

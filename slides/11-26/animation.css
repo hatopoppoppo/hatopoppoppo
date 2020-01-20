@@ -1,0 +1,152 @@
+body > :not(.anime-LR):not(.anime-UD){
+  width: 100vw;
+  height: 100vh;
+}
+.anime-LR  > *{
+  position: absolute;;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.anime-LR .door1{
+  top: 0;
+  height: 33%;
+  background-color: #6EC7E2;
+}
+.anime-LR .door2{
+  animation-delay: 0.2s;
+  top: 33%;
+  height: 33%;
+  background-color: #E84566;
+}
+.anime-LR .door3{
+  animation-delay: 0.4s; 
+  top: 66%;
+  height: 34%;
+  background-color: #F5A500;
+}
+.animation-L > *{
+  animation-name: door-L;
+}
+.animation-R > *{
+  animation-name: door-R;
+}
+@keyframes door-L{
+  0%{
+    width: 100%;
+    margin-left: 200%;
+  }
+  50%{
+    width: 100%;
+    margin-left: 0%;
+  }
+  100%{
+    width: 0;
+  }
+}
+@keyframes door-R{
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 100%;
+    margin-left: 0%;
+  }
+  100%{
+    width: 100%;
+    margin-left: 200%;
+  }
+}
+.anime-UD > *{
+  top     : 200%;
+  left    : 0;
+  bottom  : 0;
+  width   : 10px;
+  height  : 100%;
+  margin  : auto;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+}
+.anime-UD .door1{
+  animation-delay: 0s;
+  right:80%;
+  background-color: #E84566;
+}
+.anime-UD .door2{
+  animation-delay: .2s;
+  right: 40%;
+  background-color: #F5A500;
+}
+.anime-UD .door3{
+  animation-delay: .4s;
+  right:0;
+  background-color: #92CB97;
+}
+.anime-UD .door4{
+  animation-delay: .6s;
+  right: -40%;
+  background-color: #F3ADCB;
+}
+.anime-UD .door5{
+  animation-delay: .8s;
+  right: -80%;
+  background-color: #ACDDF7;
+  }
+  @keyframes anime-U{
+  0%{
+  top:200%;
+  }
+  30%{
+  top:0%;
+  }
+  40%{
+  top: 0%;
+  width:10px;
+  }
+  55%{
+  top: 0%;
+  width: 20%;
+  }
+  85%{
+    top: 0%;
+    width: 20%;
+    }
+  100%{
+    top: 0%;
+    width: 0;
+    }
+  }
+  @keyframes anime-D{
+    0%{
+    top:-200%;
+    }
+    30%{
+    top:0%;
+    }
+    40%{
+    top: 0%;
+    width:10px;
+    }
+    55%{
+    top: 0%;
+    width: 20%;
+    }
+    85%{
+      top: 0%;
+      width: 20%;
+      }
+    100%{
+      top: 0%;
+      width: 0;
+      }
+    }
+.animation-U > *{
+  animation-name: anime-U;
+}
+.animation-D > *{
+  animation-name: anime-D;
+}

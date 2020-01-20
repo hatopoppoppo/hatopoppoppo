@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180x180.png">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+    <title>2019_1030</title>
+</head>
+
+<body>
+    <div id="page1">
+        <h1>JS始めました</h1>
+        <p>中川雄貴</p>
+    </div>
+    <div id="page2">
+        <h2>自己紹介</h2>
+        <div class="flex">
+            <div class="text">
+                <p> 中川雄貴(ナカガワユウキ)</p>
+                <p>Web勉強中</p>
+                <p>CSS廃人</p>
+                <p>コーラ好き</p>
+            </div>
+            <p class="big">余白</p>
+        </div>
+    </div>
+    <div id="page3">
+        <h1>遷移アニメーション</h1>
+    </div>
+    <div id="page4">
+        <p>page1がクリック→アニメーション発火→page2を表示</p>
+        <p>page2がクリック→アニメーション発火→page3を表示</p>
+        <p>page3がクリック→アニメーション発火→page4を表示</p>
+        <p>page4がクリック→アニメーション発火→page5を表示</p>
+        <p>page5がクリック→アニメーション発火→page6を表示</p>
+        <p>page6がクリック→アニメーション発火→page7を表示</p>
+        <p>page7がクリック→アニメーション発火→page8を表示</p>
+        <p>page8がクリック→アニメーション発火→page9を表示</p>
+        <p>page9がクリック→アニメーション発火→page10を表示</p>
+        <p>page10がクリック→アニメーション発火→page11を表示</p>
+        <p>page11がクリック→アニメーション発火→page12を表示</p>
+        <p>page12がクリック→アニメーション発火→page13を表示</p>
+        <p>page13がクリック→アニメーション発火→page14を表示</p>
+        <p>page14がクリック→アニメーション発火→page15を表示</p>
+        <p>page15がクリック→アニメーション発火→page16を表示</p>
+        <p>page16がクリック→アニメーション発火→page17を表示</p>
+        <p>page17がクリック→アニメーション発火→page18を表示</p>
+        <p>page18がクリック→アニメーション発火→page19を表示</p>
+        <p>page19がクリック→アニメーション発火→page20を表示</p>
+        <p>page20がクリック→アニメーション発火→page21を表示</p>
+        <p>page21がクリック→アニメーション発火→page22を表示</p>
+        <p>page22がクリック→アニメーション発火→page23を表示</p>
+    </div>
+    <div id="page5">
+        <p>イベント検知</p>
+        <p>↓</p>
+        <p>イベントカウント+1</p>
+        <p>↓</p>
+        <p>アニメーション発火</p>
+        <p>↓</p>
+        <p>イベントカウントに応じ表示ページ変更</p>
+    </div>
+    <div id="page6">
+        <h1><span class="before">117行</span>→<span class="after">15行</span></h1>
+    </div>
+    <div id="page7">
+        <div class="flex">
+            <img src="cursor.png" alt="">
+            <h1>→</h1>
+            <img src="wasd.png" alt="">
+        </div>
+    </div>
+    <div id="page8">
+        <h1>上</h1>
+    </div>
+    <div id="page9">
+        <h1>左</h1>
+    </div>
+    <div id="page10">
+        <h1>下</h1>
+    </div>
+    <div id="page11">
+        <h1>Slack上で動くBot</h1>
+    </div>
+    <div id="page12">
+        <h1>ドット絵描けるやつ</h1>
+    </div>
+    <div id="page13">
+        <div class="dotts">
+
+            <div class="pallet">
+                <div onclick="changeColor('red');"></div>
+                <div onclick="changeColor('blue');"></div>
+                <div onclick="changeColor('yellow');"></div>
+                <div onclick="changeColor('green');"></div>
+                <div onclick="changeColor('black');"></div>
+                <div onclick="changeColor('white');"></div>
+                <img src="return.png" alt="一つ戻る" onclick="removeDiv()">
+            </div>
+            <div id="wrapper-dot">
+            </div>
+        </div>
+
+    </div>
+    <div id="page14">
+        <h1>どう見ても<br>オリジナルのゲーム</h1>
+    </div>
+    <div id="page15">
+        <div class="flex">
+            <video src="born.mp4" controls></video>
+        </div>
+    </div>
+    <div id="page16">
+        <h1>Portfolio<br>ダークモード実装</h1>
+    </div>
+    <div id="page17">
+        <div>
+            <p class="before">&lt;<span>link</span> <span>rel</span>=<span>&quotstylesheet&quot</span>
+                <span>href</span>=<span>&quot;portfolio.css&quot;</span>
+                <span>id</span>=<span>&quot;css-thema&quot;</span>&gt;</p>
+                <p>↓</p>
+            <p class="after">&lt;<span>style</span> <span>media
+                    data-href</span>=<span>&quotportfolio.css&quot</span>&gt;...&lt;/<span>style</span>&gt;</p>
+        </div>
+    </div>
+    <div id="page18">
+    <h2>後ほどポートフォリオの方に追加しました</h2>
+    <div class="flex"><img src="qr.png" alt=""></div>
+    </div>
+    <div id="page19">
+        <h2>ご静聴<br>ありがとうございました</h2>
+    </div>
+
+    <div class="anime-LR">
+        <div class="door1"></div>
+        <div class="door2"></div>
+        <div class="door3"></div>
+    </div>
+    <div class="anime-UD">
+        <div class="door1"></div>
+        <div class="door2"></div>
+        <div class="door3"></div>
+        <div class="door4"></div>
+        <div class="door5"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+body{
+  margin: 0;
+  background-color: #f4f3f9;
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+/* colors
+#f9e900
+#e84566
+#f5a500
+#f3adcb
+#acddf7
+#6ec7e2
+#92cb97
+#3b82c4
+#f4f3f9 
+詳細はp26参照*/
+*{
+  font-family: "M PLUS 1p"
+}
+h1{
+  font-size: 18.6vh;
+  text-align: center;
+  margin: 0;
+  color: #e84566;
+}
+h2{
+  font-size: 13.6vh;
+  margin: 0;
+}
+p{
+  font-size: 5.5vh;
+  margin: 0;
+  color: #333333;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#page1 h1{
+  margin-top: 32vh;
+}
+#page1 p{
+  text-align: center;
+}
+#page2 h2{
+  margin: 3vh;
+  color: #e84566;
+}
+#page2 p{
+  margin: 5vh 0 0 15vw;
+}
+#page3 h2{
+  color: #3b82c4;
+  text-align: center;
+  margin-top: 23vh;
+}
+#page4 img{
+  width: 20vw;
+  margin: 10vh 40vw;
+}
+#page4 p{
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 5vw;
+  text-align: center;
+}
+#page5 img{
+  width: 30vw;
+  margin: 10vh 20vw;
+}
+#page5 p{
+  text-align: center;
+  margin : 0;
+  font-size: 5vw;
+  text-align: center;
+}
+#page6 h1{
+  line-height: 95vh;
+}
+#page7 h1{
+  line-height: 95vh;
+}
+#page8 h2{
+  text-align: center;
+  margin-top: 3vh;
+  font-weight: normal;
+  color: #3b82c4;
+}
+.human {
+  color: #333333;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: 20vw;
+  width: 14vw;
+  height: 6vw;
+  border-left: solid 1px #333333;
+  border-right: solid 1px #333333;
+  border-top: solid 1px #333333;
+  border-bottom: solid 1px transparent;
+  background-color: #333333;
+  border-radius: 6vw 6vw 0 0;
+}
+.human:before {
+  content: '';
+  position: absolute;
+  left: 2vw;
+  top: -10vw;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  border: solid 1vw #333333;
+  background-color: #333333;
+}
+.hukidash{
+  position: absolute;
+  margin-left: 22vw;
+  margin-top: 5vh;
+  width: 70vw;
+  height: 50vh;
+  border: #333333 1vh solid;
+  border-radius: 5vh;
+}
+.hukidash p{
+  font-size: 8vh;
+  font-weight: bold;
+  margin: 12vh 0;
+  margin-left: 5vw;
+}
+.yajirush{
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-top: 23vh;
+  margin-left: 15.5vw;
+  border: #f4f3f9 5vh solid;
+  border-right: #333333 7vh solid;
+}
+#page9 h2{
+    text-align: center;
+    margin-top: 3vh;
+    font-weight: normal;
+    color: #3b82c4;
+}
+#page9 img{
+  width: 80vw;
+  margin: 10vh 10vw 0 10vw;
+}
+#page10 img{
+  width: 40vw;
+  margin: 0 5vw;
+}
+#page10 h2{
+  text-align: center;
+    margin-top: 3vh;
+    font-weight: normal;
+    color: #3b82c4;
+}
+#page11 p{
+  text-align: center;
+  margin: 18vh 0;
+  font-size: 8vh;
+  line-height: 20vh;
+}
+#page12 h1{
+  font-size: 13vh;
+  text-align: center;
+  line-height: 98vh;
+}
+#page13{
+  user-select: none;
+}
+#page14 h1{
+  margin-top: 20vh;
+}
+#page15{
+  background-color: #ffffff;
+}
+#page16 h2{
+  text-align: center;
+  color: #e84566;
+  margin-top: 5vh;
+}
+#page16 p{
+  text-align: center;
+  margin-top: 5vh;
+}
+#page17 h2{
+  text-align: center;
+  color: #e84566;
+  margin-top: 28vh;
+}

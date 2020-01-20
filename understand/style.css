@@ -1,0 +1,10 @@
+div{
+  width: 140px;
+  height: 120px;
+  margin: 200px auto;
+  padding: 6px 300px;
+  border-radius: 60px;
+  background-color: #cfcfcf;
+  white-space: pre;
+  font-size: 2em;
+}

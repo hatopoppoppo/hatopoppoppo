@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="886" height="886" viewBox="0 0 886 886">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #696969;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="楕円形_1" data-name="楕円形 1" class="cls-1" cx="443" cy="443" r="379"/>
+  <circle id="楕円形_2" data-name="楕円形 2" class="cls-2" cx="443" cy="443" r="275"/>
+  <circle id="楕円形_3" data-name="楕円形 3" class="cls-1" cx="343" cy="343" r="175"/>
+</svg>

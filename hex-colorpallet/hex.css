@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+#box{
+  width: 100vw;
+  height: 55vh;
+}
+input{
+  text-align: center;
+  font-size: 10vh;
+  color: #333333;
+  height: 10vh;
+  width: 30vw;
+  margin: 5vh 35vw;
+  border: none;
+  border-bottom: #333333 1vh solid;
+}
+:focus{
+  outline: 0;
+}
+#button{
+  width: 10vw;
+  height: 5vh;
+  border-radius: 3vh;
+  border:  0.5vh solid #333333;
+  color: #333333;
+  font-size: 3vh;
+  text-align: center;
+  margin: 0 auto;
+  user-select: none;
+}
+#flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.colors > div{
+  width: 5vw;
+  height: 5vw;
+  margin: 2vh 5vw 0 5vw;
+  border-radius: 50%;
+}
+.colors > p{
+  text-align: center;
+  font-size: 3vh;
+  margin: 0;
+  height: 3vh;
+  color: #333333;
+}

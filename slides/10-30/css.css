@@ -1,0 +1,432 @@
+body{
+  margin: 0;
+  background-color: #f4f3f9;
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+/* colors
+#f9e900
+#e84566
+#f5a500
+#f3adcb
+#acddf7
+#6ec7e2
+#92cb97
+#3b82c4
+#f4f3f9 
+詳細はp26参照*/
+*{
+  font-family: "M PLUS 1p"
+}
+h1{
+  font-size: 18.6vh;
+  margin: 0;
+}
+h2{
+  font-size: 13.6vh;
+  margin: 0;
+}
+p{
+  font-size: 5.5vh;
+  margin: 0;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page1 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 30vh;
+}
+#page1 p{
+  text-align: center;
+}
+#page2 h2{
+  margin-left: 3vw;
+  margin-top: 3vw;
+  color: #E84566;
+}
+#page2 .text{
+  margin-left: 6vw;
+}
+#page2 p{
+  margin: 5.5vh;
+}
+#page2 .big{
+  font-size: 20vw;
+  color: #636363;
+  margin-left: 10vh;
+  margin-top: 20vh;
+}
+#page3 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page4 p{
+  text-align: center;
+}
+#page5 p{
+  text-align: center;
+  margin: 5vh;
+}
+#page6 h1{
+  text-align: center;
+  color: #000000;
+  margin-top: 35vh;
+}
+#page6 span{
+  margin: 0 5vw;
+}
+#page6 .before{
+  color: #636363;
+}
+#page6 .after{
+  color: #E84566;
+}
+#page7 .flex{
+  margin-top: 30vh;
+}
+#page7 h1{
+  text-align: center;
+  color: #E84566;
+  margin: 10vh 10vw 0 10vw;
+}
+#page7 img{
+  width: auto;
+  height: 40vh;
+}
+#page8 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page9 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page10 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page11 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page12 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 35vh;
+}
+#page14 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 20vh;
+}
+#page15{
+  background-color: black;
+
+}
+#page15 video{
+  width: 80vw;
+  margin-top:5vh;
+}
+#page16 h1{
+  text-align: center;
+  color: #E84566;
+  margin-top: 20vh;
+}
+#page17 div{
+  margin-top: 30vh;
+}
+#page17 p{
+  text-align: center;
+  color: #636363;
+  margin: 5vh;
+}
+#page17 .before :nth-child(1){
+  color: #E84566;
+}
+#page17 .before :nth-child(2){
+  color: #6EC7E2;
+}
+#page17 .before :nth-child(3){
+  color: #92CB97;
+}
+#page17 .before :nth-child(4){
+  color: #6EC7E2;
+}
+#page17 .before :nth-child(5){
+  color: #92CB97;
+}
+#page17 .before :nth-child(6){
+  color: #F5A500;
+}
+#page17 .before :nth-child(7){
+  color: #92CB97;
+}
+#page17 .after :nth-child(1){
+  color: #E84566;
+}
+#page17 .after :nth-child(2){
+  color: #6EC7E2;
+}
+#page17 .after :nth-child(3){
+  color: #92CB97;
+}
+#page17 .after :nth-child(4){
+  color: #E84566;
+}
+#page18 h2{
+  text-align: center;
+  color: #E84566;
+  margin-top: 10vh;
+  font-size: 8vh;
+}
+#page18 img{
+  width: 70vh;
+  margin: 0 auto;
+}
+#page19 h2{
+  text-align: center;
+  color: #E84566;
+  margin-top: 28vh;
+}
+
+body > :not(.anime-LR):not(.anime-UD){
+  width: 100vw;
+  height: 100vh;
+}
+.anime-LR  > *{
+  position: absolute;;
+  right: 0px;
+  bottom: 0px;
+  left: 0;
+  width: 0;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.anime-LR .door1{
+  top: 0px;
+  height: 33%;
+  background-color: #6EC7E2;
+}
+.anime-LR .door2{
+  animation-delay: 0.2s;
+  top: 33%;
+  height: 33%;
+  background-color: #E84566;
+}
+.anime-LR .door3{
+  animation-delay: 0.4s; 
+  top: 66%;
+  height: 34%;
+  background-color: #F5A500;
+}
+.animation-L > *{
+  animation-name: door-L;
+}
+.animation-R > *{
+  animation-name: door-R;
+}
+@keyframes door-L{
+  0%{
+    width: 100%;
+    margin-left: 200%;
+  }
+  50%{
+    width: 100%;
+    margin-left: 0%;
+  }
+  100%{
+    width: 0;
+  }
+}
+@keyframes door-R{
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 100%;
+    margin-left: 0%;
+  }
+  100%{
+    width: 100%;
+    margin-left: 200%;
+  }
+}
+.anime-UD > *{
+  top     : 200%;
+  left    : 0;
+  bottom  : 0;
+  width   : 10px;
+  height  : 100%;
+  margin  : auto;
+  position: absolute;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+}
+.anime-UD .door1{
+  animation-delay: 0s;
+  right:80%;
+  background-color: #E84566;
+}
+.anime-UD .door2{
+  animation-delay: .2s;
+  right: 40%;
+  background-color: #F5A500;
+}
+.anime-UD .door3{
+  animation-delay: .4s;
+  right:0;
+  background-color: #92CB97;
+}
+.anime-UD .door4{
+  animation-delay: .6s;
+  right: -40%;
+  background-color: #F3ADCB;
+}
+.anime-UD .door5{
+  animation-delay: .8s;
+  right: -80%;
+  background-color: #ACDDF7;
+  }
+  @keyframes anime-U{
+  0%{
+  top:200%;
+  }
+  30%{
+  top:0%;
+  }
+  40%{
+  top: 0%;
+  width:10px;
+  }
+  55%{
+  top: 0%;
+  width: 20%;
+  }
+  85%{
+    top: 0%;
+    width: 20%;
+    }
+  100%{
+    top: 0%;
+    width: 0;
+    }
+  }
+  @keyframes anime-D{
+    0%{
+    top:-200%;
+    }
+    30%{
+    top:0%;
+    }
+    40%{
+    top: 0%;
+    width:10px;
+    }
+    55%{
+    top: 0%;
+    width: 20%;
+    }
+    85%{
+      top: 0%;
+      width: 20%;
+      }
+    100%{
+      top: 0%;
+      width: 0;
+      }
+    }
+.animation-U > *{
+  animation-name: anime-U;
+}
+.animation-D > *{
+  animation-name: anime-D;
+}
+
+
+.dotts{
+  display: flex;
+}
+.pallet > *{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.pallet :nth-child(1){
+ background-color: red;
+}
+.pallet :nth-child(2){
+  background-color: blue;
+ }
+ .pallet :nth-child(3){
+  background-color: yellow;
+ }
+ .pallet :nth-child(4){
+  background-color: green;
+ }
+ .pallet :nth-child(5){
+  background-color: black;
+ }
+ .pallet :nth-child(6){
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  border: 2px #000000 solid;
+  background-color: white;
+  margin: 10px;
+ }
+ .pallet :last-child{
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 2px #000000 solid;
+  background-color: white;
+  margin: 10px;
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+ }
+#wrapper-dot{
+  width: 32vw;
+  height: 32vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border-radius: 50px;
+  border: #364e96 50px solid;
+}
+#wrapper-dot div{
+width: 2vw;
+height: 2vw;
+margin: 0;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.black{
+  background-color: black;
+}
+.white{
+  background-color: white;
+}

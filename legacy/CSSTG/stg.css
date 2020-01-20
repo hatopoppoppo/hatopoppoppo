@@ -1,0 +1,810 @@
+html{
+  cursor: url(cursor.cur),pointer;
+  background-color: beige;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+input[type="checkbox"]{
+  cursor: url(cursor.cur),pointer;
+  -webkit-appearance: none; 
+  position: absolute;
+  display: inline-block;
+  width: 101px;
+  height: 101px;
+  background-size: contain;
+  background-image: url(bull.png);
+}
+input[type="checkbox"]:checked:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 101px;
+  height: 101px;
+  background: url(bulls.png);
+  background-size: 101px 101px;
+}
+.Title{
+  animation-name:title;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 400%;
+  text-align: center;
+}
+.count5{
+  animation-name:title;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 200%;
+  text-align: center;
+}
+.count4{
+  animation-name:title;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 200%;
+  text-align: center;
+}
+.count3{
+  animation-name:title;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 200%;
+  text-align: center;
+}
+.count2{
+  animation-name:title;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 200%;
+  text-align: center;
+}
+.count1{
+  animation-name:title;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-timing-function: step-end;
+  visibility:hidden;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 200%;
+  text-align: center;
+}
+@keyframes title{
+  0%{
+    visibility:visible;
+  }
+  100%{
+    visibility:hidden;
+  }
+}
+ @keyframes load{
+   0%{
+     visibility: hidden;
+   }
+   100%{
+     visibility: visible;
+   }
+ }
+.target1{
+  animation-name:targetl;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target2{
+  animation-name:targett;
+  animation-delay: 13s;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target3{
+  animation-name:targetr;
+  animation-delay: 16s;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 20%;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target4{
+  animation-name:targetl;
+  animation-delay: 17s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 120%;
+  right: 0;
+  bottom: 40%;
+  margin: auto;
+}
+.target5{
+  animation-name:targetb;
+  animation-delay: 18s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 70%;
+  bottom: 120%;
+  margin: auto;
+}
+.target6{
+  animation-name:targetr;
+  animation-delay: 19s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 50%;
+  margin: auto;
+}
+.target7{
+  animation-name:targett;
+  animation-delay: 20s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target8{
+  animation-name:targetb;
+  animation-delay: 21s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 60%;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target9{
+  animation-name:targetl;
+  animation-delay: 22s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 120%;
+  right: 0;
+  bottom: 40%;
+  margin: auto;
+}
+.target10{
+  animation-name:targett;
+  animation-delay: 23s;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 30%;
+  bottom: 0;
+  margin: auto;
+}
+.target11{
+  animation-name:targetr;
+  animation-delay: 23.5s;
+  animation-duration: 2.8s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 20%;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target12{
+  animation-name:targetb;
+  animation-delay: 24s;
+  animation-duration: 2.6s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 80%;
+  bottom: 120%;
+  margin: auto;
+}
+.target13{
+  animation-name:targett;
+  animation-delay: 24.5s;
+  animation-duration: 2.4s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target14{
+  animation-name:targetr;
+  animation-delay: 25s;
+  animation-duration: 2.2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 50%;
+  margin: auto;
+}
+.target15{
+  animation-name:targetb;
+  animation-delay: 25.5s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 70%;
+  bottom: 120%;
+  margin: auto;
+}
+.target16{
+  animation-name:targetl;
+  animation-delay: 26.9s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 60%;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target17{
+  animation-name:targett;
+  animation-delay: 26.2s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target18{
+  animation-name:targetl;
+  animation-delay: 26.4s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0%;
+  left: 120%;
+  right: 0;
+  bottom: 40%;
+  margin: auto;
+}
+.target19{
+  animation-name:targetb;
+  animation-delay: 26.5s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 80%;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target20{
+  animation-name:targetb;
+  animation-delay: 26.6s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target21{
+  animation-name:targetb;
+  animation-delay: 26.7s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target22{
+  animation-name:targetb;
+  animation-delay: 26.8s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 40%;
+  bottom: 120%;
+  margin: auto;
+}
+.target23{
+  animation-name:targetb;
+  animation-delay: 26.9s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 80%;
+  bottom: 120%;
+  margin: auto;
+}
+.target24{
+  animation-name:targetr;
+  animation-delay: 27s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 80%;
+  margin: auto;
+}
+.target25{
+  animation-name:targetr;
+  animation-delay: 27.1s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 40%;
+  margin: auto;
+}
+.target26{
+  animation-name:targetr;
+  animation-delay: 27.2s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target27{
+  animation-name:targetr;
+  animation-delay: 27.3s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 40%;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target28{
+  animation-name:targetr;
+  animation-delay: 27.4s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 80%;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target29{
+  animation-name:targett;
+  animation-delay: 27.5s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 80%;
+  bottom: 0;
+  margin: auto;
+}
+.target30{
+  animation-name:targett;
+  animation-delay: 27.6s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 40%;
+  bottom: 0;
+  margin: auto;
+}
+.target31{
+  animation-name:targett;
+  animation-delay: 27.7s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target32{
+  animation-name:targett;
+  animation-delay: 27.8s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target33{
+  animation-name:targett;
+  animation-delay: 27.9s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 80%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target34{
+  animation-name:targetl;
+  animation-delay: 28s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top:80%;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target35{
+  animation-name:targetl;
+  animation-delay: 28.1s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top:40%;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target36{
+  animation-name:targetl;
+  animation-delay: 28.2s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top:0;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target37{
+  animation-name:targetl;
+  animation-delay: 28.3s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top:0;
+  left: 120%;
+  right: 0;
+  bottom: 40%;
+  margin: auto;
+}
+.target38{
+  animation-name:targetl;
+  animation-delay: 28.4s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top:0;
+  left: 120%;
+  right: 0;
+  bottom: 80%;
+  margin: auto;
+}
+.target39{
+  animation-name:targett;
+  animation-delay: 29s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target40{
+  animation-name:targetl;
+  animation-delay: 29s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target41{
+  animation-name:targetr;
+  animation-delay: 29s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: -120%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.target42{
+  animation-name:targetb;
+  animation-delay: 29s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target43{
+  animation-name:targetb;
+  animation-delay: 29.5s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target44{
+  animation-name:targetb;
+  animation-delay: 29.6s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target45{
+  animation-name:targetb;
+  animation-delay: 29.7s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target46{
+  animation-name:targetb;
+  animation-delay: 29.8s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target47{
+  animation-name:targetb;
+  animation-delay: 29.9s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target48{
+  animation-name:targetb;
+  animation-delay: 30s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target49{
+  animation-name:targetb;
+  animation-delay: 30.1s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+.target50{
+  animation-name:targetb;
+  animation-delay: 30.2s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 120%;
+  margin: auto;
+}
+@keyframes targetl{
+  0%{
+    left: 120%;
+  }
+  100%{
+    left: -120%;
+  }
+}
+@keyframes targetr{
+  0%{
+    left:-120%;
+  }
+  100%{
+    left: 120%;
+  }
+}
+@keyframes targett{
+  0%{
+    top: 120%;
+  }
+  100%{
+    top: -120%;
+  }
+}
+@keyframes targetb{
+  0%{
+    bottom: 120%;
+  }
+  100%{
+    bottom: -120%;
+  }
+}
+.game {
+  counter-reset: point;
+}
+input:checked {
+  counter-increment: point;
+}
+.total{
+  animation-name: load,total;
+  animation-delay: 0s,33s;
+  animation-duration: 5s,0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: step-end,step-start;
+  text-align: center;
+}
+.total:after {
+  content: "現在"counter(point)"/50点";
+}
+@keyframes total{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.totalscore{
+  animation-name: totalscore;
+  animation-delay: 33s;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: step-start;
+  visibility:hidden;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 300%;
+  text-align: center;
+}
+.totalscore:after {
+  content: "結果　　"counter(point)"/50点";
+}
+@keyframes totalscore{
+  0%{
+    visibility:hidden;
+  }
+  100%{
+    visibility:visible;
+  }
+}

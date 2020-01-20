@@ -1,0 +1,72 @@
+#dark{
+  display: none;
+}
+body{
+  background-color: #333333;
+}
+body h1{
+color: #f1f0ee;
+}
+body p{
+  color: #f1f0ee;
+}
+body a{
+  color: #f1f0ee;
+  }
+
+header{
+  background-color: #333333;
+}
+.header-logo{
+  background-image: url(logo-d.png);
+}
+.header-item :hover{
+  background-color: #f1f0ee;
+  color: #333333;
+}
+.icon{
+  border: 3px #f1f0ee dashed;
+  }
+.graph-html {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 90%,
+    #9b9b9b 90%,
+    #9b9b9b 100%
+  );
+}
+.graph-css {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 80%,
+    #9b9b9b 80%,
+    #9b9b9b 100%
+  );
+}
+.graph-js {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 15%,
+    #9b9b9b 15%,
+    #9b9b9b 100%
+  );
+}
+.circle{
+  background-color: #333333;
+}
+.circle p{
+  color: #f1f0ee;
+}
+.workbox{
+  background-color: #808080;
+  box-shadow:4px 4px #666666;
+}
+footer{
+  background-color: #f1f0ee;
+}
+.twitter{
+  background-image: url(twitter-d.png);
+}
+footer p{
+  color: #333333;
+}

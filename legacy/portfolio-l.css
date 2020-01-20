@@ -1,0 +1,73 @@
+
+#light{
+  display: none;
+}
+body{
+  background-color: #f1f0ee;
+}
+body h1{
+color: #333333;
+}
+body p{
+  color: #333333;
+}
+body a{
+  color: #333333;
+  }
+
+header{
+  background-color: #f1f0ee;
+}
+.header-logo{
+  background-image: url(logo.png);
+}
+.header-item :hover{
+  background-color: #333333;
+  color: #f1f0ee;
+}
+.icon{
+  border: 3px #333333 dashed;
+  }
+.graph-html {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 90%,
+    #9b9b9b 90%,
+    #9b9b9b 100%
+  );
+}
+.graph-css {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 80%,
+    #9b9b9b 80%,
+    #9b9b9b 100%
+  );
+}
+.graph-js {
+  background-image: conic-gradient(
+    #63bf74 0,
+    #63bf74 15%,
+    #9b9b9b 15%,
+    #9b9b9b 100%
+  );
+}
+.circle{
+  background-color: #f1f0ee;
+}
+.circle p{
+  color: #63bf74;
+}
+.workbox{
+  background-color: #e2e2e2;
+  box-shadow:4px 4px #d1d1d1;
+}
+footer{
+  background-color: #696969;
+}
+.twitter{
+  background-image: url(twitter.png);
+}
+footer p{
+  color: #f1f0ee;
+}

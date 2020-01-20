@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  user-select: none;
+}
+.times{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+}
+.upbutton,.downbutton{
+  width: 120px;
+  height: 120px;
+  border: #333333 5px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter{
+  width: 130px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: #333333;
+}
+.upbutton div,.downbutton div{
+  width: 20px;
+  border-radius: 10px;
+  height: 100px;
+  background-color: #333333;
+  position: absolute;
+}
+.upbutton :nth-child(1),.downbutton :nth-child(1){
+  transform: rotate(90deg);
+}
+.points div{
+  width: 20px;
+  height: 20px;
+  background-color: #333333;
+  border-radius: 50%;
+  margin: 0 50px;
+}
+.points :nth-child(1){
+  margin-bottom: 20px;
+}
+.points :nth-child(2){
+  margin-top: 20px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  height: 20vh;
+}
+.buttons div{
+  width: 300px;
+  height: 100px;
+  border: #333333 5px solid;
+  border-radius: 50px;
+  margin: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons div p{
+  font-size: 50px;
+  margin: 0;
+}
