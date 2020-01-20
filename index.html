@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="top.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="loading" class="flex">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div id="contents">
+    <p id="scroll">0</p>
+    <div class="top-photo"></div>
+    <div class="flex">
+      <img src="logo.png" alt="logo" class="logo">
+    </div>
+    <h1 id="name">はと</h1>
+    <div class="flex">
+      <div id="twitter" class="sns"><a href="https://twitter.com/hatopoppo_N" target="_blank"><img src="sns-logo/twitter.png" alt="logo">
+        </a></div>
+        <div id="qiita" class="sns"><a href="https://qiita.com/hato-poppo" target="_blank"><img src="sns-logo/qiita.png" alt="logo">
+        </a></div>
+        <div id="github" class="sns"><a href="https://github.com/hatopoppoppo" target="_blank"><img src="sns-logo/github.png" alt="logo">
+        </a></div>
+    </div>
+    <div id="profile">
+      <p>CSSをこよなく愛す高校生</p>
+      <p>CSSを愛するあまり、本来JSを使うような実装を</p>
+      <p><span>『脳筋クソコード』</span>で解決させる節がある。</p>
+      <p>コーラも好き</p>
+    </div>
+    <h1 id="skills">Skills</h1>
+    <div id="skill-container">
+        <div class="skill-wrap">
+          <div id="html-graph">
+            <div class="circle">
+              <p>HTML</p>
+            </div>
+          </div>
+            <p>基本的なHTMLは書ける。<br>だがcanvasなどまだまだ触れられていない物も多い。</p>
+        </div>
+        <div class="skill-wrap">
+          <div id="css-graph">
+            <div class="circle">
+              <p>CSS</p>
+            </div>
+          </div>
+            <p>タイピングゲーム作ったりある程度は極めたが、<br>脳筋実装が多い為崩れやすい。</p>
+        </div>
+        <div class="skill-wrap">
+          <div id="js-graph">
+            <div class="circle">
+              <p>JavaScript</p>
+            </div>
+          </div>
+            <p>for文とか基本的なのは大体書ける。<br>これから勉強。</p>
+        </div>
+    </div>
+    <h1 id="project">Projects</h1>
+    <div id="project-container">
+      <div class="projects box-big1">
+        <div class="hover-mask">
+          <p>カラーコードを<br>自動生成<br>下には同じトーンの色が表示される</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>JSで作ったゲーム<br>wasdで移動できる</p>
+        </div>
+      </div>
+      <div class="projects box-big2">
+        <div class="hover-mask">
+          <p>自作フォントをまとめたサイト<br>タグ検索もどきができる</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>CSS完全に理解した</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>CSSanimation<br>qiitaに記事書いた</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>入力した<br>カラーコードに<br>合う色を見つける</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>コーラカウント<br>総カロリー等を表示<br>自戒用</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="hover-mask">
+          <p>CSSanimation<br>CSS1100行書いた</p>
+        </div>
+      </div>
+      <div class="projects box-big3">
+        <div class="hover-mask">
+          <p>旧ポートフォリオ<br>殆どhtmlとcssで書いていた</p>
+        </div>
+      </div>
+      <div class="projects box-big4">
+        <div class="hover-mask">
+          <p>タイピングゲーム<br>JS使わず実装</p>
+        </div>
+      </div>
+      <div class="projects box-big5">
+        <div class="hover-mask">
+          <p>webスライド<br>JSで制御しWeb上でプレゼンできるように</p>
+        </div>
+      </div>
+    </div>
+    <div id="modal-container">
+      <div id="modal-1"><img class="modal-img" src="project-photo/hsl-color.png" alt="">
+        <p class="modal-text">カラーコードを自動生成するやつです。<br>乱数生成したカラーコードの明度彩度を固定し、<br>色相をまたランダムで回すことにより、<br>合う色も出せるようになりました。<br>ここで作った色を基本に作った作品もいくつかあります。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-2"><img class="modal-img" src="project-photo/js-game.png" alt="">
+        <p class="modal-text"><span>完全オリジナル</span>のゲームです。<br>wasdでハートを動かすゲームです。<br>骨を動かす気力はありませんでした。<br>気の狂ったカメレオンのイラストは<br>友人に描いてもらいました。</p class="modal-text">
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-3"><img class="modal-img" src="project-photo/gmstb-font.png" alt="">
+        <p class="modal-text">中学の頃から細々と作っていたフォントを、<br>一覧できるサイトです。<br>実はそこそこ使用実績があったりします。<br>JS学び始めた頃に作りました。<br>フォントのタグ絞り込みを実装したりしてます。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-4"><img class="modal-img" src="project-photo/css-poke.png" alt="">
+        <p class="modal-text">完全に理解した。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-5"><img class="modal-img" src="project-photo/anmation-qiita.png" alt="">
+        <p class="modal-text">Qiitaに書いた<br>CSSアニメーションの記事です。<br>70いいね以上獲得し、<br>トレンドにも一瞬だけ載りました。<br>最初に作品がシュバババと出たのもCSSアニメーションです。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-6"><img class="modal-img" src="project-photo/hex-color.png" alt="">
+        <p class="modal-text">入力したカラーコードに合う色を表示するやつです。<br>hexからrgbを経由してhslに変換して、<br>明度彩度を固定し色相を変更し、<br>再びrgbに戻しhexにしてます。<br>地獄</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-7"><img class="modal-img" src="project-photo/cola-count.png" alt="">
+        <p class="modal-text">コーラが好きすぎるので作りました。<br>JS学習初期に作ったものです。<br>近くのコンビニでの値段を参考に、<br>合計金額などを出し自戒しています。<br>今のところ効果はありません。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-8"><img class="modal-img" src="project-photo/n-animation.png" alt="">
+        <p class="modal-text">CSSアニメーションです。<br>21秒とそこそこ長めです。<br>クソコードを羅列した結果<br>1100行を超えるCSSが生み出されました。<br>コードの短縮 大事</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-9"><img class="modal-img" src="project-photo/portfolio-old.png" alt="">
+        <p class="modal-text">このポートフォリオの以前のバージョンです。<br>殆どHTML・CSSで書いていました。<br>唯一書いたJSは、<br>ライトモードダークモードの切り替えです。<br>総制作期間3日。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-10"><img class="modal-img" src="project-photo/js-typing.png" alt="">
+        <p class="modal-text">タイピングゲームを作りました。<br><span>JS無しで</span><br>HTMLとCSSだけで作りました。<br>validが全ての原因です。<br>CSS力は大体ここでわかるかなと思います。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="modal-11"><img class="modal-img" src="project-photo/slide-web.png" alt="">
+        <p  class="modal-text">スライドをWebで作ったやつです。<br>過去のLTのスライドなどは大体纏めてあります。<br>ページ遷移にCSSアニメーション使ったりしてます。<br>他に作った物も<br>スライドにあったりするので是非ご覧ください。</p>
+        <div class="button"></div>
+        <div class="close">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div><a href="https://twitter.com/hatopoppo_N" target="_blank"><img src="sns-logo/twitter.png" alt="twitter"></a></div>
+      <p>hatopoppo.web@gmail.com</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
