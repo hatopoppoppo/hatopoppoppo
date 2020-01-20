@@ -44,7 +44,6 @@ window.onscroll = function(){
   var scrollY = window.pageYOffset
   var windowHeight = window.innerHeight
   parallax = scrollY / windowHeight * 100
-  document.getElementById("scroll").innerHTML = Math.round(parallax) + "%"
 
   if (5 <= parallax && parallax < 25){
     document.getElementById("name").style.marginTop = "-" + parallax/4 + "vh" 
