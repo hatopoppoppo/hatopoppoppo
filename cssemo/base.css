@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: none;
+  background-color: black;
+}
+.circle , .diamond , .box{
+  width: 0;
+  height: 0;
+  border: 0 solid white;
+  margin: 50vw;
+  position: absolute;
+  animation-name: animation;
+  animation-delay: 0s;
+  animation-duration: .8s;
+  animation-fill-mode: forwards;
+}
+.circle{
+  border-radius: 50%;
+}
+.diamond{
+  transform-origin: center;
+  transform: rotate(45deg);
+}
+
+@keyframes animation{
+  0%{
+    width: 0;
+    height: 0;
+    margin: 50vw;
+    border-width: 0;
+  }
+  20%{
+    width: 0vw;
+    height: 0vw;
+    margin: 40vw;
+    border-width: 10vw;
+  }
+  100%{
+    width: 100vw;
+    height: 100vw;
+    margin: 0vw;
+    border-width: 0;
+  }
+}
