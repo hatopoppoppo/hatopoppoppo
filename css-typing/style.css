@@ -1,0 +1,71 @@
+/* デザイン部分 */
+body{
+  margin: 0;
+  background-color: #262d40;
+}
+input{
+  width: 40vw;
+  height: 10vh;
+  font-size: 5vh;
+  position: absolute;
+  top: 80vh;
+  margin: 0 30vw;
+  border: #d2d9e1 5px solid;
+  background-color: #262d40;
+  color: #b8e0d1;
+  text-shadow: 0 0 5px #45a17e ,0 0 5px #45a17e;
+}
+:focus{
+  outline: 0;
+}
+h1{
+  position: absolute;
+  width: 100vw;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0;
+  margin-top: 70vh;
+}
+p{
+  position: absolute;
+  width: 100vw;
+  display: none;
+  text-align: center;
+  font-size: 5vh;
+  margin: 0;
+  margin-top: 5vh;
+  color: #d2d9e1;
+}
+.clock{
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  margin: 0 40vw;
+  margin-top: 20vh;
+  background-color: #8996ac;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.clock > div{
+  width: 1vh;
+  height: 10vw;
+  border-radius: .5vw;
+  background-color: #d2d9e1;
+  transform-origin: bottom;
+  animation-name: clock;
+  animation-duration: 13s;
+  animation-timing-function: linear;
+}
+/* タイマー部分 */
+@keyframes clock{
+  0%{
+    transform: rotate(-360deg);
+  }
+  23%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,147 @@
+/* ゲームの制限時間の設定 */
+input,h1{
+  animation-name: game;
+  animation-duration: 13s;
+  animation-timing-function: step-end;
+  animation-fill-mode: forwards;
+}
+@keyframes game{
+  0%{
+    visibility: hidden;
+  }
+  23%{
+    visibility: visible;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+/* z-indexを問い順に */
+.A6{
+  z-index: 1;
+}
+.A5{
+  z-index:  2;
+}
+.A4{
+  z-index:  3;
+}
+.A3{
+  z-index: 4;
+}
+.A2{
+  z-index: 5;
+}
+.A1{
+  z-index: 6;
+}
+/* pattern正で消去 */
+input[pattern]:valid{
+  display: none;
+}
+/* n問目まで正解で問題の変更 */
+.A1:invalid ~
+.A2:invalid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .Q1 {
+  opacity: 1;
+}
+.A1:valid ~
+.A2:invalid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .Q2 {
+  opacity: 1;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .Q3 {
+  opacity: 1;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .Q4 {
+  opacity: 1;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:valid ~
+.A5:invalid ~
+.A6:invalid ~ .Q5 {
+  opacity: 1;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:valid ~
+.A5:valid ~
+.A6:invalid ~ .Q6 {
+  opacity: 1;
+}
+/* n問目まで正解でスコアの変更 */
+.A1:invalid ~
+.A2:invalid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .score0 {
+  display: block;
+}
+.A1:valid ~
+.A2:invalid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .score1 {
+  display: block;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:invalid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .score2 {
+  display: block;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:invalid ~
+.A5:invalid ~
+.A6:invalid ~ .score3 {
+  display: block;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:valid ~
+.A5:invalid ~
+.A6:invalid ~ .score4 {
+  display: block;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:valid ~
+.A5:valid ~
+.A6:invalid ~ .score5 {
+  display: block;
+}
+.A1:valid ~
+.A2:valid ~
+.A3:valid ~
+.A4:valid ~
+.A5:valid ~
+.A6:valid ~ .score6 {
+  display: block;
+}
